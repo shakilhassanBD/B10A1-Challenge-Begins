@@ -61,7 +61,7 @@
     background-color: #FAFAFB;
     width: 1140px;
     height: auto;
-    /* position: static; */
+   padding-top: 30px;
 }
 .group_container{
     width: 946px;
@@ -104,3 +104,26 @@
     border-radius: 3px;
 }
 /* ................... */
+.inspiration{
+    width: 1140px;
+    height: auto;
+    text-align: center;
+}
+.inspiration div{
+    width: 800px;
+    text-align: center;
+}
+.inspiration h2{
+    padding-top: 50px;
+    color: #0D1321;
+}
+.inspiration div p{
+    color: #0D1321;
+    opacity: 80%;
+}
+.youtube_video{
+    width: 900px;
+    width: 600px;
+    border-radius: 15px;
+    margin-top: 45px;
+}
