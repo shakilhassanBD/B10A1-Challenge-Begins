@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1440px;
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    /* font-weight: <weight> 100; */
+    font-style: normal;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 36px;
+}
+.download_btn{
+    width: 224px;
+    height: 57px;
+    color: #0D1321;
+    font-size: 20;
+    background-color: white;
+    border: 1px solid #0D1321;
+    border-radius: 3px;
+}
+.header_container{
+    background-image: url('../assets/Hero-bg.png');
+    max-width: 1440px;
+    height: 581px;
+    margin: 0 auto;
+    text-align: center;
+}
+.header_container img{
+    margin-top: 20px;
+}
+.header_title{
+    margin: 24px 0 34px 0;
+}
+.header_description{
+    width: 800px;
+    height: auto;
+    margin: 0 auto;
+    color: #0D1321;
+}
+.contact_btn{
+    margin: 34px auto 0;
+    width: 224px;
+    height: 65px;
+    color: white;
+    background: #000000;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+
+.group_section{
+    background-color: #FAFAFB;
+    width: 1140px;
+    height: auto;
+    /* position: static; */
+}
+.group_container{
+    width: 946px;
+    height: auto;
+}
+.group_header{
+    width: 850px;
+    margin: 80px auto;
+    /* text-align: center; */
+}
+.group_header h1{
+    margin-bottom: 50px;
+}
+
+
+/* ----------common style--------------- */
+.group{
+    display: flex;
+    margin: 32px auto;
+    
+}
+.group div{
+    width: 390px;
+    height: auto;
+}
+.group div h2{
+    color: #0D1321;
+    opacity: 70%;
+    margin-bottom: 32px;
+}
+.group div p{
+    color: #0D1321;
+    opacity: 80%;
+    margin-bottom: 16px;
+}
+.group div button{
+    width: 150px;
+    height: 50px;
+    background: #ffffff; 
+    border-radius: 3px;
+}
+/* ................... */
