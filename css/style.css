@@ -18,7 +18,8 @@
     margin-top: 50px;
     margin-bottom: 36px;
 }
-.download_btn{
+
+.download_btn {
     width: 224px;
     height: 57px;
     color: #0D1321;
@@ -27,26 +28,31 @@
     border: 1px solid #0D1321;
     border-radius: 3px;
 }
-.header_container{
+
+.header_container {
     background-image: url('../assets/Hero-bg.png');
     max-width: 1440px;
     height: 581px;
     margin: 0 auto;
     text-align: center;
 }
-.header_container img{
+
+.header_container img {
     margin-top: 20px;
 }
-.header_title{
+
+.header_title {
     margin: 24px 0 34px 0;
 }
-.header_description{
+
+.header_description {
     width: 800px;
     height: auto;
     margin: 0 auto;
     color: #0D1321;
 }
-.contact_btn{
+
+.contact_btn {
     margin: 34px auto 0;
     width: 224px;
     height: 65px;
@@ -57,73 +63,147 @@
 }
 
 
-.group_section{
+.group_section {
     background-color: #FAFAFB;
     width: 1140px;
     height: auto;
-   padding-top: 30px;
+    /* padding-top: 30px; */
 }
-.group_container{
+
+.group_container {
     width: 946px;
     height: auto;
 }
-.group_header{
+
+.group_header {
     width: 850px;
-    margin: 80px auto;
-    /* text-align: center; */
+    margin: 50px auto;
+    text-align: center;
+    padding-top: 30px;
 }
-.group_header h1{
+
+.group_header h1 {
     margin-bottom: 50px;
 }
 
 
 /* ----------common style--------------- */
-.group{
+.group {
     display: flex;
     margin: 32px auto;
-    
+
 }
-.group div{
+
+.group div {
     width: 390px;
     height: auto;
 }
-.group div h2{
+
+.group div h2 {
     color: #0D1321;
     opacity: 70%;
     margin-bottom: 32px;
 }
-.group div p{
+
+.group div p {
     color: #0D1321;
     opacity: 80%;
     margin-bottom: 16px;
 }
-.group div button{
+
+.group div button {
     width: 150px;
     height: 50px;
-    background: #ffffff; 
+    background: #ffffff;
     border-radius: 3px;
 }
+
 /* ................... */
-.inspiration{
+.inspiration {
     width: 1140px;
     height: auto;
     text-align: center;
 }
-.inspiration div{
+
+.inspiration div {
     width: 800px;
     text-align: center;
 }
-.inspiration h2{
+
+.inspiration h2 {
     padding-top: 50px;
     color: #0D1321;
 }
-.inspiration div p{
+
+.inspiration div p {
     color: #0D1321;
     opacity: 80%;
 }
-.youtube_video{
+
+.youtube_video {
     width: 900px;
     width: 600px;
     border-radius: 15px;
     margin-top: 45px;
+}
+
+.target {
+    width: 1140px;
+    height: auto;
+    margin: 100px auto;
+}
+
+.current_target {
+    display: flex;
+}
+
+.current_target_heading {
+    width: 900px;
+    height: auto;
+    text-align: center;
+    margin: 50px auto;
+
+}
+
+.current_target_heading p {
+    color: #0D1321;
+    opacity: 80%;
+    margin-top: 30px;
+}
+
+/* current targets common style */
+.current_targets {
+    width: 280px;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+
+}
+
+.current_targets h3 {
+    margin: 15px 0;
+}
+
+.current_targets p {
+    color: #0D1321;
+    opacity: 80%;
+    margin-bottom: 15px;
+}
+
+.current_targets a {
+color: #000000;
+}
+
+/* ----------- */
+.html {
+    background-color: #FFF6F3;
+}
+
+.css {
+    background-color: #F2F6FE;
+}
+
+.js {
+    background-color: #FFFDF2;
 }
