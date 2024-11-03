@@ -61,6 +61,10 @@
     font-weight: bold;
     border-radius: 5px;
 }
+.contact_btn a{
+    text-decoration: none;
+    color: white;
+}
 
 
 .group_section {
