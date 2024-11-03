@@ -192,7 +192,7 @@
 }
 
 .current_targets a {
-color: #000000;
+    color: #000000;
 }
 
 /* ----------- */
@@ -206,4 +206,73 @@ color: #000000;
 
 .js {
     background-color: #FFFDF2;
+}
+
+/* next target section commmon style */
+.next_target_heading {
+    width: 846px;
+    height: auto;
+    margin: 100px auto 48px;
+    text-align: center;
+}
+
+.next_targets {
+    width: 1140px;
+    height: auto;
+    display: flex;
+    column-gap: 50px;
+    margin-bottom: 25px;
+    border: 0.5px solid rgb(191, 189, 189);
+    padding: 20px;
+    border-radius: 5px;
+
+}
+.next_targets p{
+    color: #0D1321;
+    opacity: 80%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.next_targets a{
+    color: #000000;
+}
+
+.hand_shake{
+    background-image: url('../assets/handshake.jpg');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    
+}
+.hand_shake div h2, p{
+    width: 700px;
+    font-weight: normal;
+    text-align: center;
+    margin: 15px auto;
+}
+.hand_shake p{
+    color: darkgrey;
+}
+.hand_shake input{
+    width: 450px;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+}
+.hand_shake button{
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+}
+footer{
+    width: 1140px;
+    height: 100px;
+    background-color: #F7F8F8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 50%;
+
 }
